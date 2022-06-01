@@ -61,7 +61,8 @@ class HomePage extends StatelessWidget {
               margin: const EdgeInsets.all(12.0),
               child: ElevatedButton.icon(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> ScannerQRPage()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => ScannerQRPage()));
                 },
                 style: ElevatedButton.styleFrom(
                   primary: kBrandPrimaryColor,

@@ -44,7 +44,6 @@ class _RegisterPageState extends State<RegisterPage> {
                   const SizedBox(
                     height: 20.0,
                   ),
-
                   InputFieldWidget(
                     text: "Nombres completos",
                     icon: "bx-user",
@@ -53,13 +52,12 @@ class _RegisterPageState extends State<RegisterPage> {
                     text: "DNI",
                     icon: "bx-card",
                   ),
-
                   QrImage(
-                    data: "https://www.youtube.com/watch?v=34Na4j8AVgA&ab_channel=TheWeekndVEVO",
+                    data:
+                        "https://www.youtube.com/watch?v=34Na4j8AVgA&ab_channel=TheWeekndVEVO",
                     version: QrVersions.auto,
                     size: 220.0,
                   ),
-
                 ],
               ),
             ),
@@ -78,9 +76,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     borderRadius: BorderRadius.circular(14.0),
                   ),
                 ),
-                onPressed: () {
-
-                },
+                onPressed: () {},
                 child: const Text(
                   "Finalizar registro",
                   style: TextStyle(

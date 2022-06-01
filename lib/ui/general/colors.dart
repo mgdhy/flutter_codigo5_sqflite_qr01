@@ -1,4 +1,3 @@
-
 import 'dart:ui';
 
 const Color kBrandPrimaryColor = Color(0xff7F76DF);
